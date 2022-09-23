@@ -37,7 +37,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, command }) => {
     var pweb = await conn.profilePictureUrl(conn.user.jid).catch(_ => './multimedia/imagenes/avatar_contact.png')
     var textweb = ''
     }
-    const message = m.reply(`_Cargando menu..._ ${textweb}`)
+    const message = m.reply(`_Cargando menu de comandos..._ ${textweb}`)
     await message
     /**try {
     let datcov = await fetch('https://latam-api.vercel.app/api/covid19?apikey=nekosmic&q=world');
@@ -120,7 +120,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, command }) => {
 image: {url: pweb },
 caption: text.trim(),
 footer: `\n┏⊱ ${NombreDelBot}\n┗━⊱ ${MultiNK.Habla()} ✓`,
-buttons: [{buttonId: Prefijo+`apoyo`, buttonText: {displayText: "[ APOYO ]"}, type: 1}, {buttonId: Prefijo+`creador`, buttonText: {displayText: "[ CREADOR ]",}, type: 1}, {buttonId: Prefijo+`informacion`, buttonText: {displayText: "[ INFORMACION ]"}, type: 1}],
+buttons: [{buttonId: Prefijo+`apoyo`, buttonText: {displayText: "[ APOYO ]"}, type: 1}, {buttonId: Prefijo+`creador`, buttonText: {displayText: "[ CREADORA ]",}, type: 1}, {buttonId: Prefijo+`informacion`, buttonText: {displayText: "[ INFORMACION ]"}, type: 1}],
 headerType: 4,
 ...{ contextInfo: { mentionedJid: [m.sender], externalAdReply: { thumbnail: fs.readFileSync('./multimedia/imagenes/logo.jpg'), sourceUrl: 'https://github.com/Yesenia57/NekosmicBot-MD/fork?rgh-fork=true' }}}
 }, { quoted: m }) 
