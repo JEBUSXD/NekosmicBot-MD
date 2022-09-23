@@ -389,4 +389,5 @@ conn.sendPresenceUpdate('recording', m.chat)
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Nyanpasu >~<`, "body": `Kaneki`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /nyanpasu/
 handler.command = /^(nyanpasu?$)/
+
 export default handler
