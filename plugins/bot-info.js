@@ -77,7 +77,7 @@ ${masss}
 ➪ *Hits de hoy* : _${global.hit_cmd.length}_
 ➪ *Version del bot* : _${BotVersion}_
 ➪ *Wa-web Api* : _https://github.com/adiwajshing/Baileys_
-➪ *Sc - Github* : _https://github.com/NeKosmic/NK-BOT-MD_
+➪ *Sc - Github* : _https://github.com/Yesenia57/NekosmicBot-MD_
 ➪ *Total de plugins* : _${Object.keys(plugins).length}_
 ➪ *Velocidad de procesamiento* : _${speed} s..._
 ➪ *Velocidad de conexion* : _${latensi.toFixed(4)}ms..._
