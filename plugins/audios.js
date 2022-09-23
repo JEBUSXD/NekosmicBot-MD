@@ -10,7 +10,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /Kaway/
 handler.command = /^(Kaway?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/baka.mp3'
@@ -19,7 +19,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /Baka|baka|bak/
 handler.command = /^(Baka|baka|bak?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/onich.mp3'
@@ -28,7 +28,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /onichan|Onichan/
 handler.command = /^(onichan|Onichan?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/yamete.mp3'
@@ -37,7 +37,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /kudasai/
 handler.command = /^(kuadasi?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/yutki.m4a'
@@ -46,7 +46,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /Yutki/
 handler.command = /^(Yutki?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/yokese.m4a'
@@ -55,7 +55,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /Yoquese/
 handler.command = /^(Yoquese?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/yajaro.m4a'
@@ -64,7 +64,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /Yajaro/
 handler.command = /^(Yajaro?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/woau.m4a'
@@ -73,7 +73,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /woau/
 handler.command = /^(woau?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/unga.m4a'
@@ -82,7 +82,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /Unga/
 handler.command = /^(Unga?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/uma.m4a'
@@ -91,7 +91,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /uma/
 handler.command = /^(Uma?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/umai.m4a'
@@ -100,7 +100,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /umai/
 handler.command = /^(umai?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/uchinchi.m4a'
@@ -109,7 +109,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /uchinchi/
 handler.command = /^(uchinchi?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/tuturu.m4a'
@@ -118,7 +118,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /tuturu/
 handler.command = /^(tuturu?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/talcho.m4a'
@@ -127,7 +127,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /talcho/
 handler.command = /^(talcho?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/sss.m4a'
@@ -136,7 +136,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /sss/
 handler.command = /^(sss?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/ohayo.m4a'
@@ -145,7 +145,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /hoayou/
 handler.command = /^(hoayou?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/sempai.m4a'
@@ -154,7 +154,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /sempai/
 handler.command = /^(sempai?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/pupu.m4a'
@@ -163,7 +163,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /pupu|pouuu/
 handler.command = /^(pupu|pouuu?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/pikachu.m4a'
@@ -172,7 +172,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /pikaa|pica|pikachu/
 handler.command = /^(pikaa|pica|pikachu?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/ooaa.m4a'
@@ -181,7 +181,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /ooaa/
 handler.command = /^(ooaa?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/omg.m4a'
@@ -190,7 +190,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /OMG|omg/
 handler.command = /^(Omg|omg?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/omaiwa.m4a'
@@ -199,7 +199,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /omaiwa/
 handler.command = /^(omaiwa?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/omaiga.m4a'
@@ -208,7 +208,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /omaiga/
 handler.command = /^(omaiga?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/ñañañi.m4a'
@@ -217,7 +217,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /ñañañi/
 handler.command = /^(ñañañi?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/ñaña.m4a'
@@ -226,7 +226,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /ñaña/
 handler.command = /^(ñaña?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/nya.m4a'
@@ -235,7 +235,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /nya/
 handler.command = /^(nya?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/niconico.m4a'
@@ -244,7 +244,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /niconico/
 handler.command = /^(Omg|omg?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/nani.m4a'
@@ -253,7 +253,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /nani/
 handler.command = /^(nani?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/motomoto.m4a'
@@ -262,7 +262,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /motomoto/
 handler.command = /^(motomoto?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/mma.m4a'
@@ -271,7 +271,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /mma/
 handler.command = /^(mma?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/mitamita.m4a'
@@ -280,7 +280,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /mitamita/
 handler.command = /^(mitamita?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/kobarashi.m4a'
@@ -289,7 +289,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /kobarashi/
 handler.command = /^(kobarashi?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/kataka.m4a'
@@ -298,7 +298,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /kataka/
 handler.command = /^(kataka?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/jai.m4a'
@@ -307,7 +307,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /jai/
 handler.command = /^(jai?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/hentai.m4a'
@@ -316,7 +316,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /jentai/
 handler.command = /^(jentai?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/asen.m4a'
@@ -325,7 +325,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /asennn/
 handler.command = /^(asennn?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/anana.m4a'
@@ -334,7 +334,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /anana/
 handler.command = /^(anana?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/papus.m4a'
@@ -343,7 +343,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /papus/
 handler.command = /^(papus?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/aaa.m4a'
@@ -352,7 +352,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /ª/
 handler.command = /^(ª?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/araara.mp3'
@@ -361,7 +361,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /ara ara/
 handler.command = /^(ara ara?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/ya.mp3'
@@ -370,7 +370,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /yamete/
 handler.command = /^(yamete?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/Bdia.m4a'
@@ -379,7 +379,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /buenos dias/
 handler.command = /^(buenos dias?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/si_sp.m4a'
@@ -388,7 +388,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /si 👍|si/
 handler.command = /^(si 👍|si?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/turrbio.m4a'
@@ -397,7 +397,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /no returbio/
 handler.command = /^(no returbio?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/ohhh_xd.m4a'
@@ -406,7 +406,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /oh me vengo/
 handler.command = /^(oh me vengo?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/con_flores.m4a'
@@ -415,7 +415,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /con flores/
 handler.command = /^(con flores?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/no_papu.m4a'
@@ -424,7 +424,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /no digas eso papu/
 handler.command = /^(no digas eso papu?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/no-chupala.m4a'
@@ -433,7 +433,7 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /no chupala/
 handler.command = /^(no chupala?$)/
 export default handler
-}
+
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/nyanpasu.m4a'
@@ -442,4 +442,3 @@ conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply":
 handler.customPrefix = /nyanpasu/
 handler.command = /^(nyanpasu?$)/
 export default handler
-}
