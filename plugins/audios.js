@@ -4,7 +4,7 @@ import not from '../lib/modokuaker.js'
 
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/onichan.mp3'
+let vn = '../multimedia/sonidos/onichan.mp3'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Kaway >~<`, "body": `Matt_Mdz`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://vm.tiktok.com/ZMLjAbySN/`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /Kaway/
@@ -13,7 +13,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/baka.mp3'
+let vn = '../multimedia/sonidos/baka.mp3'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Baka >~<`, "body": `Yesenia UwU`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://fb.watch/b7pj-i5ejP/`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /Baka|baka|bak/
@@ -22,7 +22,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/onich.mp3'
+let vn = '../multimedia/sonidos/onich.mp3'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `onichan >~<`, "body": `Matt_Mdz UwU`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /onichan|Onichan/
@@ -31,7 +31,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/yamete.mp3'
+let vn = '../multimedia/sonidos/yamete.mp3'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `kudasai! >~<`, "body": `Yesenia UwU`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://fb.watch/b7pj-i5ejP/`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /kudasai/
@@ -40,7 +40,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/yutki.m4a'
+let vn = '../multimedia/sonidos/yutki.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `yutki >~<`, "body": `Matt_Mdz`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://vm.tiktok.com/ZMLjAbySN/`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /Yutki/
@@ -49,7 +49,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/yokese.m4a'
+let vn = '../multimedia/sonidos/yokese.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Yo que se >~<`, "body": `Yesenia u.u`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /Yoquese/
@@ -58,7 +58,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/yajaro.m4a'
+let vn = '../multimedia/sonidos/yajaro.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Yajaro!!  >~<`, "body": `Matt_Mdz`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /Yajaro/
@@ -67,7 +67,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/woau.m4a'
+let vn = '../multimedia/sonidos/woau.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Kawaii 0.0`, "body": `BrunoSobrino`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /woau/
@@ -76,7 +76,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/unga.m4a'
+let vn = '../multimedia/sonidos/unga.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Ungaaa >~<`, "body": `BrunoSobrino`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /Unga/
@@ -85,7 +85,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/uma.m4a'
+let vn = '../multimedia/sonidos/uma.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `imaaa >~<`, "body": `Matt_Mdz`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /uma/
@@ -94,7 +94,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/umai.m4a'
+let vn = '../multimedia/sonidos/umai.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `umaii...! >~<`, "body": `Matt_Mdz`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /umai/
@@ -103,7 +103,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/uchinchi.m4a'
+let vn = '../multimedia/sonidos/uchinchi.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `uchinchi >~<`, "body": `Yesenia >⁠.⁠<`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /uchinchi/
@@ -112,7 +112,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/tuturu.m4a'
+let vn = '../multimedia/sonidos/tuturu.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `tuturu >~<`, "body": `Yesenia`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /tuturu/
@@ -121,7 +121,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/talcho.m4a'
+let vn = '../multimedia/sonidos/talcho.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `talcho >~<`, "body": `Yesenia`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /talcho/
@@ -130,7 +130,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/sss.m4a'
+let vn = '../multimedia/sonidos/sss.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Suprise!! >~<`, "body": `Yesenia ☺️`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /sss/
@@ -139,7 +139,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/ohayo.m4a'
+let vn = '../multimedia/sonidos/ohayo.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `ohayo >~<`, "body": `Matt_Mdz`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /hoayou/
@@ -148,7 +148,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/sempai.m4a'
+let vn = '../multimedia/sonidos/sempai.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Eres mi sempaii >~<`, "body": `BrunoSobrino`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://fb.watch/b7pj-i5ejP/`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /sempai/
@@ -157,7 +157,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/pupu.m4a'
+let vn = '../multimedia/sonidos/pupu.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `pupuu >~<`, "body": `Yesenia 😍`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://vm.tiktok.com/ZMLjAbySN/`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /pupu|pouuu/
@@ -166,7 +166,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/pikachu.m4a'
+let vn = '../multimedia/sonidos/pikachu.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Pikachu ⚡`, "body": `🇷🇺🇷𝑼𝑺𝑰𝑨🇷🇺𝑴∆®𝑳𝑶𝑵`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /pikaa|pica|pikachu/
@@ -175,7 +175,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/ooaa.m4a'
+let vn = '../multimedia/sonidos/ooaa.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Ooaa >_<`, "body": `Nekosmic`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://vm.tiktok.com/ZMLjAbySN/`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /ooaa/
@@ -184,7 +184,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/omg.m4a'
+let vn = '../multimedia/sonidos/omg.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `OMG >~<`, "body": `Nekosmic`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /OMG|omg/
@@ -193,7 +193,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/omaiwa.m4a'
+let vn = '../multimedia/sonidos/omaiwa.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Omaiwaaa >~<`, "body": `Nekosmic`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /omaiwa/
@@ -202,7 +202,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/omaiga.m4a'
+let vn = '../multimedia/sonidos/omaiga.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Omaiga >~<`, "body": `Nekosmic`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /omaiga/
@@ -211,7 +211,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/ñañañi.m4a'
+let vn = '../multimedia/sonidos/ñañañi.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `ñañañi >~<`, "body": `🇷🇺🇷𝑼𝑺𝑰𝑨🇷🇺𝑴∆®𝑳𝑶𝑵`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /ñañañi/
@@ -220,7 +220,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/ñaña.m4a'
+let vn = '../multimedia/sonidos/ñaña.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Ñaña ^⁠_⁠^`, "body": `Nekosmic`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://fb.watch/b7pj-i5ejP/`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /ñaña/
@@ -229,7 +229,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/nya.m4a'
+let vn = '../multimedia/sonidos/nya.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Nya >~<`, "body": `Matt_Mdz`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /nya/
@@ -238,7 +238,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/niconico.m4a'
+let vn = '../multimedia/sonidos/niconico.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `NicoNico >~<`, "body": `Nekosmic`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /niconico/
@@ -247,7 +247,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/nani.m4a'
+let vn = '../multimedia/sonidos/nani.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Nanii >~<`, "body": `Yesenia ⚡☺️`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /nani/
@@ -256,7 +256,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/motomoto.m4a'
+let vn = '../multimedia/sonidos/motomoto.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Motomoto >~<`, "body": `Anegelito🧐`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /motomoto/
@@ -265,7 +265,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/mma.m4a'
+let vn = '../multimedia/sonidos/mma.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Mmma >~<`, "body": `Eclipse⚡`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /mma/
@@ -274,7 +274,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/mitamita.m4a'
+let vn = '../multimedia/sonidos/mitamita.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `MitaMita >~<`, "body": `Meliodas⚡`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /mitamita/
@@ -283,7 +283,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/kobarashi.m4a'
+let vn = '../multimedia/sonidos/kobarashi.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Kobarashi >~<`, "body": `Quantum-Bot`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /kobarashi/
@@ -292,7 +292,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/kataka.m4a'
+let vn = '../multimedia/sonidos/kataka.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Kataka >~<`, "body": `Eres lindo UwU`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /kataka/
@@ -301,7 +301,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/jai.m4a'
+let vn = '../multimedia/sonidos/jai.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Jai Masta >~<`, "body": `Nekosmic`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /jai/
@@ -310,7 +310,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/hentai.m4a'
+let vn = '../multimedia/sonidos/hentai.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `jentai >~<`, "body": `Eres precios@😍`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /jentai/
@@ -319,7 +319,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/asen.m4a'
+let vn = '../multimedia/sonidos/asen.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Asenn >~<`, "body": `BrunoSobrino ☺️`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /asennn/
@@ -328,7 +328,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/anana.m4a'
+let vn = '../multimedia/sonidos/anana.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Anana >~<`, "body": `Hola sempai`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /anana/
@@ -337,7 +337,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/papus.m4a'
+let vn = '../multimedia/sonidos/papus.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Papus >~<`, "body": `Hola papu`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /papus/
@@ -346,7 +346,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/aaa.m4a'
+let vn = '../multimedia/sonidos/aaa.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `ª >~<`, "body": `Nekosmic`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /ª/
@@ -355,7 +355,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/araara.mp3'
+let vn = '../multimedia/sonidos/araara.mp3'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Ara Ara >~<`, "body": `Buenas ☺️`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /ara ara/
@@ -364,7 +364,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/ya.mp3'
+let vn = '../multimedia/sonidos/ya.mp3'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Ya yamete kudaii!! >~<`, "body": `Gracias por usar mi bot u.u`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /yamete/
@@ -373,7 +373,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/Bdia.m4a'
+let vn = '../multimedia/sonidos/Bdia.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Buen dia >~<`, "body": `Nekosmic`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /buenos dias/
@@ -382,7 +382,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/si_sp.m4a'
+let vn = '../multimedia/sonidos/si_sp.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `si 😎👍`, "body": `BrunoSobrimo`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /si 👍|si/
@@ -391,7 +391,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/turrbio.m4a'
+let vn = '../multimedia/sonidos/turrbio.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `No returbio >~<`, "body": `Oreki Houtarou`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /no returbio/
@@ -400,7 +400,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/ohhh_xd.m4a'
+let vn = '../multimedia/sonidos/ohhh_xd.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `hoo mevengoo 🥵`, "body": `Faraon love shady`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /oh me vengo/
@@ -409,7 +409,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/con_flores.m4a'
+let vn = '../multimedia/sonidos/con_flores.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `con flores 🌹🌺`, "body": `Nekosmic`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /con flores/
@@ -418,7 +418,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/no_papu.m4a'
+let vn = '../multimedia/sonidos/no_papu.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `no digas eso papu 😭`, "body": `Papu eres hermoso`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /no digas eso papu/
@@ -427,7 +427,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/no-chupala.m4a'
+let vn = '../multimedia/sonidos/no-chupala.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `no chupala 🥵`, "body": `BrunoSobrino`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /no chupala/
@@ -436,7 +436,7 @@ export default handler
 }
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
-let vn = './multimedia/sonidos/nyanpasu.m4a'
+let vn = '../multimedia/sonidos/nyanpasu.m4a'
 conn.sendPresenceUpdate('recording', m.chat)  
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": `Nyanpasu >~<`, "body": `Kaneki`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": `https://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA`, "showAdAttribution": true}}, seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
 handler.customPrefix = /nyanpasu/
