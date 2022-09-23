@@ -1,7 +1,3 @@
-import db from '../lib/database.js'
-import * as fs from 'fs'
-import not from '../lib/modokuaker.js'
-
 let handler = async (m, { conn }) => {
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = '../multimedia/sonidos/onichan.mp3'
