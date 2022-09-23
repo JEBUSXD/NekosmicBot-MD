@@ -148,9 +148,9 @@ const defaultMenu = {
 ~|-------------------------|~
 *[_>] _COMANDOS_  ☷*
 ~|-------------------------|~\n`.trimStart(),
-  header: '╔「 %category 」\n║╭—————————',
-  body: '║├  %cmd %islimit %isPremium',
-  footer: '║╰—————————\n╚══════════\n',
+  header: '╭━━━━❮ %category ❯━━━⎔\n┃╭──────────⎔',
+  body: '├❐  %cmd %islimit %isPremium',
+  footer: '┃╰───────────⎔\n*╰━━━━━━━━━━━━━━⎔*\n',
   after: ``,
 }
 handler.help = ['menu']
