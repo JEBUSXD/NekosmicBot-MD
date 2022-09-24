@@ -137,7 +137,7 @@ const defaultMenu = {
 *│🕰️ Tiempo activo:* %uptime
 *│🧬 Version del bot:* %version
 *│👩🏻‍💻 Dueña:* %prop
-*│🪫 Prefijo único: 「 %pref 」
+│🪫 Prefijo único: 「 %pref 」
 *│🩻 Cliente:* %name
 *│🧯 Limite restante:* %limit
 *│📍 Nivel:* %level (%exp / %maxexp)
