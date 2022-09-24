@@ -9,11 +9,11 @@ const data = global.owner.filter(([id, isCreator]) => id && isCreator)
 for (let [number, name] of data) {
 let vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + 'FN:'+Propietario+'\n'
+            + 'FN:'+Propietaria+'\n'
             + 'ORG:Otakus Tecnológicos;\n'
 
             + 'item1.TEL;waid=51957041866:+51 957 041 866\n'
-            + 'item1.X-ABLabel:⚡ Creador Principal\n'
+            + 'item1.X-ABLabel:⚡ Creadora Principal\n'
             
             + 'item2.TEL;waid='+number.replace(/[^0-9]/g, '')+':+'+number.replace(/[^0-9]/g, '')+'\n'
             + 'item2.X-ABLabel:🤝 Dueño actual\n'
