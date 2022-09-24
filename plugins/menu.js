@@ -133,11 +133,11 @@ reacMoji(m.chat, conn, '📜', m)
 const defaultMenu = {
   before: `\n
 *╭───❮* \`\`\`%npmname\`\`\` *❯───ঐ*
-*│🗃️* Base de datos:* %rtotalreg a %totalreg
+*│🗃️ Base de datos:* %rtotalreg a %totalreg
 *│🕰️ Tiempo activo:* %uptime
 *│🧬 Version del bot:* %version
 *│👩🏻‍💻 Dueña:* %prop
-│🪫 Prefijo único: 「 %pref 」
+*│🪫 Prefijo único:* 「 %pref 」
 *│🩻 Cliente:* %name
 *│🧯 Limite restante:* %limit
 *│📍 Nivel:* %level (%exp / %maxexp)
