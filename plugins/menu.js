@@ -132,22 +132,22 @@ reacMoji(m.chat, conn, '📜', m)
 }
 const defaultMenu = {
   before: `\n
-╔I [ \`\`\`%npmname\`\`\` ]
-║❂ Base de datos: %rtotalreg a %totalreg
-║❂ Tiempo activo: %uptime
-║❂ Version del bot: %version
-║❂ Dueño: %prop
-║❂ Prefijo único: 「 %pref 」
-║❂ Cliente: %name
-║❂ Limite restante: %limit
-║❂ Nivel: %level (%exp / %maxexp)
-║❂ Rol: %role
-║❂ XP: %totalexp
-╚══════════
+*╭───❮* \`\`\`%npmname\`\`\` *❯───ঐ*
+*│🗃️* Base de datos:* %rtotalreg a %totalreg
+*│🕰️ Tiempo activo:* %uptime
+*│🧬 Version del bot:* %version
+*│👩🏻‍💻 Dueña:* %prop
+*│🪫 Prefijo único: 「 %pref 」
+*│🩻 Cliente:* %name
+*│🧯 Limite restante:* %limit
+*│📍 Nivel:* %level (%exp / %maxexp)
+*│🗝️ Rol:* %role
+*│🧴 XP:* %totalexp
+*╰─────────────────────ঐ*
 %readmore
-~|-------------------------|~
-*[_>] _COMANDOS_  ☷*
-~|-------------------------|~\n`.trimStart(),
+╭───────────────❐
+├❐ [>] _COMANDOS  ☷
+╰───────────────❐\n`.trimStart(),
   header: '╭━━━━❮ %category ❯━━━⎔\n┃╭──────────⎔',
   body: '├❐  %cmd %islimit %isPremium',
   footer: '┃╰───────────⎔\n*╰━━━━━━━━━━━━━━⎔*\n',
