@@ -1,11 +1,4 @@
-/**
-[ By @NeKosmic || https://github.com/NeKosmic/ ]
-**/
-let handler = async (m, { conn, args }) => {
-	let pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => null) || './multimedia/imagenes/avatar_contact.png'
-	let name = await conn.getName(m.sender)
-try {
-	let media = '.../logo.jpg'
+let media = '.../logo.jpg'
 let handler = async (m, { conn, command }) => conn.sendButton(m.chat, `
 Holi amigo o amiga te invito a mis grupos ofc
 ╭━━━━━━━━━━━━━━━━━━━━━━━━❐
