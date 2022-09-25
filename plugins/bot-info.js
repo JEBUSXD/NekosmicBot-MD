@@ -95,7 +95,7 @@ ${'' + Object.keys(used).map((key, , arr) => `${key.padEnd(Math.max(...arr.map(v
 ${cpus[0].model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- ${(type + '').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}
 CPU Core(s) Usado (${cpus.length} Core CPU)
 ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- ${(type + '').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}`).join('\n\n')}` : ''}
-╰━━━━━━━━━━━━━━━━━━━ঐ`.trim()
+╰━━━━━━━━━━━━━━━━━━━ঐ `.trim()
 const prep=generateWAMessageFromContent(m.chat,{orderMessage:{orderId:'5352482274766633',thumbnail:await getBuffer(pweb),itemCount:-369,status:1,surface:1,message:infotext,orderTitle:NombreDelBot+` 🔥`,sellerJid:'51957041866@s.whatsapp.net',token:'1655878716',priceAmount:'666000',totalAmount1000:'9999999999',totalCurrencyCode:'PEN',contextInfo:null,}},{quoted:m})
 await conn.relayMessage(m.chat, prep.message,  { messageId: prep.key.id })
 reacMoji(m.chat, conn, '🤖', m)
