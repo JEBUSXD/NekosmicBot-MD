@@ -87,7 +87,6 @@ ${masss}
 ┃ 🪨 Arquitectura : ${arch()}
 ┃ 🐕‍🦺 Host : ${hostname()}
 ╰━━━━━━━━━━━━━━━━━━━ঐ
-
 ╭━━━━━━━━━━━━━━━━━ঐ
 ➫ Consumó de memoria :
 ${'' + Object.keys(used).map((key, , arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + ''}
